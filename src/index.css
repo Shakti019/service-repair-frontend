@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+@keyframes fadeInUp{
+  from{
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeInUp{
+   animation: fadeInUp 1s ease-in-out;
+}
+
+.font-savate {
+  font-family: "Savate", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* You can adjust this value */
+  font-style: normal;
+}
+
+
